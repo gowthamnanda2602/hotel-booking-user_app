@@ -1,0 +1,25 @@
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+}
+
+
+
+
+.list a {
+    text-decoration: none;
+    color: #95bcf0;
+}
+
+.list a:hover,
+.list a.active {
+    color: #95bcf0;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #95bcf0;
+}
